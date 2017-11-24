@@ -62,14 +62,31 @@ nav {
     color: $navbar-font-color;
     display: inline-block;
     font-size: $navbar-brand-font-size;
-    padding: 0;
+    padding: 0px 0px 0px 20px;;
 
     &.center {
       left: 50%;
       transform: translateX(-50%);
     }
 
-    @media #{$medium-and-down} {
+    @media #{$medium-only} {
+      left: 50%;
+      transform: translateX(-50%);
+
+      &.left, &.right {
+        padding: 0;
+        transform: none;
+      }
+
+      &.left { left: 0.5rem; }
+      &.right {
+        right: 0.5rem;
+        left: auto;
+      }
+    }
+
+    @media #{$small-and-down} {
+      font-size: $navbar-brand-font-sm;
       left: 50%;
       transform: translateX(-50%);
 
