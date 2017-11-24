@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+}
+
+/*------------------------------------------*/
+/* Component Styles Section*/
+/*------------------------------------------*/
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #777777;
+  background-image: url('../images/concrete_wall_3.png');
+}
+
+h1 h2 h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-weight: 700;
+
+}
+
+
+footer {
+  clear: both;
+  background-color: #666666; /*Revelation 13:18*/
+  padding: 25px;
+  border-top: 8px solid #4aaaa5;
+  color: #a6a6a6;
+  text-align: center;
+  font-size: 0.5em;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/* Here's the formatting for the input form on the Contact Page */
+
+label {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 0px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5px;
+  border: 1px solid #a6a6a6;
+}
+
+/* The following is to make the default text in the forms smaller and greyer*/
+.def-text {
+	color: #000000;
+	opacity: 0.6;
+	font-size: 0.75em;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    /*padding: 12px 20px;*/
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: 1.0em;
+    text-align: center;
+}
+
+/* From the w3schools website*/
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*--------------------------------------------------------------------*/
+/* Class Styles Section*/
+/*--------------------------------------------------------------------*/
+
+/* Sidebar container and related styles*/
+
+.sidebar {
+  /*float: right;*/
+  /*width: 100%;
+  max-width: 270px;*/
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+
+.sidebar h2 {
+  
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eeeeee;
+  font-weight: bold;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.25em;
+  color: #4aaaa5;
+}
+
+.sidebar a{
+  text-decoration: none;
+}
+
+.social-image {
+  width: 60px;
+  height: 60px;
+  margin-top: 8px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  border: 0 none;
+}
+
+/* portfolio page styles */
+
+.portfolio-item {
+  position: relative;
+  float: left;
+  width: 275px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+
+.portfolio-item img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.portfolio-item h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+/* Override collapsing nav bar */
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
+
+/*------------------------------------------------------------------------------------*/
+/* ID Styles Section*/
+/*------------------------------------------------------------------------------------*/
+
+#my-body-styling {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #777777;
+  background-image: url('../images/concrete_wall_3.png');
+}
+
+#logo {
+  width: 250px;
+  height: 90px;
+  border-right: none;   
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+  margin-left: -15px;
+}
+
+
+/* Following is the styling for the NAV that appears at the top of each page */
+
+#logo h2 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#my-nav {
+  float: right;
+  margin-top: 25px;
+}
+
+#my-nav a {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1em;
+  color: #a6a6a6;
+  text-decoration: none;
+  border: none;
+}
+
+#my-bars {
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6; 
+}
+
+/* Main Content Containers and other styles */
+#main-content-container {
+  /*float: left;*/
+  /*width: 100%;*/
+  /*max-width: 650px;*/
+  padding: 20px 30px 30px 15px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+#main-content-container p {
+  margin-bottom: 20px;
+}
+
+#main-content-container h2 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 90px;
+  color: #4aaaa5;
+  border-bottom: 3px solid #e6e6e6;
+  margin-bottom: 20px;
+  margin-top: 0;
+
+}
+
+ #about-me {
+ 	border-bottom: none;
+ 	max-width: 100%;
+ 	margin-left: 10px;
+ }
+
+#hulme-picture {
+  float: left;
+  display: inline;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+
+
