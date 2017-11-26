@@ -1,0 +1,48 @@
+
+// Footer Classes
+/*SHH Footer Classes*/
+$shh-footer-bg-color: color("grey", "lighten-3") !default;
+$shh-footer-font-color: teal;
+
+.shh-footer {
+  padding-top: 20px;
+  z-index: 1;
+  color: $shh-footer-font-color;
+  background-color: $shh-footer-bg-color;
+  //for phones
+  @media #{$small-and-down}  {
+        height: 75px;
+        min-height: 0px;
+  }
+  //for tablets and up
+  @media #{$medium-and-up} {
+        height: 75px;
+        min-height: 36px;
+    
+  }
+}
+
+.shh-footer-copyright {
+        min-height: 20px;
+        position: relative;
+        top: 10px;
+
+  @media #{$small-and-down} {}
+  @media #{$medium-and-up} {}
+  @media screen and (max-width: 374px) {
+   font-size: .75rem;
+  }
+}
+
+
+.shh-footer-image {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    vertical-align: text-top;
+
+  @media #{$small-and-down} {
+    display: none;
+  }
+}
+

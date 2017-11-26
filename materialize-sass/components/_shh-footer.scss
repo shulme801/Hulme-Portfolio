@@ -1,0 +1,34 @@
+//SHH portfolio styles
+
+$primary-color: color("grey", "lighten-3") !default;
+$footer-bg-color: color("grey", "lighten-3") !default;
+$footer-font-color: teal;
+
+.dropdownImg {
+  height: 32px;
+  width: 32px;
+}
+
+.dropdownTxt {
+  margin-left: 10px;
+  font-size: .8rem;
+}
+
+// Footer Classes
+.shh-footer {
+  padding-top: 20px;
+  color: $primary-color z-depth-1;
+  color: $footer-font-color;
+  background-color: $footer-bg-color;
+  /*for phones*/
+  @media #{$small-and-down}  {
+        height: 75px;
+        min-height: 0px;
+  }
+  /*for tablets and up*/
+  @media #{$medium-and-up} {
+        height: 75px;
+        min-height: 36px;
+    
+  }
+}
