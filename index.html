@@ -36,33 +36,54 @@
 
     <header>
     <div class="container">
+      <!-- Dropdown Structure for horizontal navbar menu-->
+      <ul id="connectDropdown1" class="dropdown-content">
+        <li><a href="https://github.com/shulme801" target="_blank"><img src="images/github_square-114px.png" alt="github_img" class="dropdownImg"><span class="dropdownTxt teal-text">GitHub</span></a></li>
+        <li class="divider"></li>
+        <li><a href="http://linkedin.com/in/shulme801" target="_blank"><img src="images/linkedin_square_color-114px.png" alt="linkedin_img" class="dropdownImg"><span class="dropdownTxt teal-text">LinkedIn</span></a></li>
+        <li class="divider"></li>
+        <li><a href="https://stackoverflow.com/users/7875249/stephen-hulme" target="_blank"><img src="images/stackoverflow-114px.png" alt="stack_overflow_image" class="dropdownImg"><span class="dropdownTxt teal-text">StackOverflow</span></a></li>
+      </ul>
+      <!-- Dropdown Structure for sidenav menu on small screens -->
+      <ul id="connectDropdown2" class="dropdown-content">
+        <li><a href="https://github.com/shulme801" target="_blank"><img src="images/github_square-114px.png" alt="github_img" class="dropdownImg"><span class="dropdownTxt teal-text">GitHub</span></a></li>
+        <li class="divider"></li>
+        <li><a href="http://linkedin.com/in/shulme801" target="_blank"><img src="images/linkedin_square_color-114px.png" alt="linkedin_img" class="dropdownImg"><span class="dropdownTxt teal-text">LinkedIn</span></a></li>
+        <li class="divider"></li>
+        <li><a href="https://stackoverflow.com/users/7875249/stephen-hulme" target="_blank"><img src="images/stackoverflow-114px.png" alt="stack_overflow_image" class="dropdownImg"><span class="dropdownTxt teal-text">StackOverflow</span></a></li>
+      </ul>
       <nav class="grey lighten-3">
         <div class="nav-wrapper grey lighten-3">
-          <a href="#" class="brand-logo  teal-text">Steve Hulme</a>
+          <span class="brand-logo  teal-text">Steve Hulme</span>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger button-collapse"><i class="material-icons medium teal lighten-1 left">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#"><span class="teal-text">About</span></a></li>
             <li><a href="portfolio.html"><span class="teal-text">Portfolio</span></a></li>
             <li><a href="contact.html"><span class="teal-text">Contact</span></a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger teal-text" href="#!" data-target="connectDropdown1">Connect<i class="material-icons right">arrow_drop_down
+                  </i>
+                 </a>
+            </li>
           </ul>
           <ul class="sidenav" id="mobile-demo">
-            <li><a href="#"><span class="teal-text">Aboutx</span></a></li>
+            <li><a href="#"><span class="teal-text">About</span></a></li>
             <li><a href="portfolio.html"><span class="teal-text">Portfolio</span></a></li>
             <li><a href="contact.html"><span class="teal-text">Contact</span></a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger teal-text" href="#!" data-target="connectDropdown2">Connect<i class="material-icons right">arrow_drop_down
+                  </i>
+                 </a>
+            </li>
           </ul>
+          
         </div>
       </nav>
     </div>
   </header>
 
                
-                  <!-- <ul class="nav navbar-nav navbar-right" id="my-nav">
-                    <li><a href="#">About</a></li>
-                    <li id="my-bars"><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul> -->
-
-              
+                  
 
       <div class="container">
         <div class="row">
@@ -72,7 +93,7 @@
               </div>
               <div class="row">
                 <div class="col-md-12 col-xs-12">
-                      <img src="images/Hulme.jpg" alt="Placeholder" id="hulme-picture" class="img-responsive">
+                      <!-- <img src="images/Hulme.jpg" alt="Placeholder" id="hulme-picture" class="img-responsive"> -->
                       <p>
                          On a spring day in 1992 I stood in the main plaza of the Javits Center in Manhattan. Harvey, my boss, and I were waiting in the ticket line to enter the Unix Expo. Harvey held the Exhibitors list in his hand. "Look at this, Steve -- everybody here is talking about the Internet. I think we need to get on this train!"  When we got home, I bought a server and set up our web site, working from an O'Reilly book. A year later I built an online information service, from scratch -- learning perl from the O'Reilly "Llama" book as I went.
                       </p>
@@ -108,11 +129,18 @@
 
     </div> 
   </div>
-  <div class="row">
-        <footer>
-            &copy; Copyright 2017 Stephen H. Hulme
-        </footer>
-  </div>
+
+  <!-- This is the responsive footer -->
+  <footer class="container page-footer grey lighten-3 teal-text z-depth-1 myFooter">
+    <div class="nav-wrapper">
+          <div class="footer-copyright grey lighten-3 teal-text myCopyright">
+         
+            <span id="mySignature"> © 2017  Steve Hulme/<img src="images/Pilgrim_Logo_grey_background_tiny.png" class="myTinyImage">Pilgrim Marine Consultants</span>
+            
+            
+          </div>
+    </div>
+  </footer>
   
   <!-- jQuery CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
