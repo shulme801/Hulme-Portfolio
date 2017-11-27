@@ -2,7 +2,7 @@
 // Footer Classes
 /*SHH Footer Classes*/
 $shh-footer-bg-color: color("grey", "lighten-3") !default;
-$shh-footer-font-color: teal;
+$shh-footer-font-color: teal !default;
 
 .shh-footer {
   padding-top: 20px;
@@ -26,6 +26,7 @@ $shh-footer-font-color: teal;
         min-height: 20px;
         position: relative;
         top: 10px;
+        margin-left: 20px;
 
   @media #{$small-and-down} {}
   @media #{$medium-and-up} {}
