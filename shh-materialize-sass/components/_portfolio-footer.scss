@@ -30,7 +30,7 @@ $shh-footer-font-color: teal !default;
 
   @media #{$small-and-down} {}
   @media #{$medium-and-up} {}
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 400px) {
    font-size: .75rem;
   }
 }

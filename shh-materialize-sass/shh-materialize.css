@@ -2541,7 +2541,7 @@ td, th {
   position: relative;
   top: 10px;
   margin-left: 20px; }
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 400px) {
     .shh-footer-copyright {
       font-size: .75rem; } }
 
@@ -2568,5 +2568,8 @@ td, th {
 .portfolio-card-text {
   font-size: 1.0rem;
   color: black; }
+
+.portfolio-card-image {
+  margin: 0 5px 0 0; }
 
 /*# sourceMappingURL=shh-materialize.css.map */
