@@ -1,0 +1,20 @@
+
+
+.portfolio-card-panel {
+  transition: box-shadow .25s;
+  padding: $card-padding;
+  margin: $element-top-margin 0 $element-bottom-margin 0;
+  margin-left: 10px;
+  border-radius: 2px;
+  @extend .z-depth-1;
+  background-color: $card-bg-color;
+}
+
+.portfolio-card-title {
+  font-size: 1.5rem;
+}
+
+.portfolio-card-text {
+  font-size: 1.0rem;
+  color: black;
+}

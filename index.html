@@ -23,8 +23,7 @@
 
 <body>
 
-
-    <header>
+    <header> <!-- Portfolio Header  for SHH Materialize Portfolio-->
     <div class="container">
       <!-- Dropdown Structure for horizontal navbar menu-->
       <ul id="connectDropdown1" class="dropdown-content">
@@ -33,7 +32,8 @@
         <li><a href="http://linkedin.com/in/shulme801" target="_blank"><img src="images/linkedin_square_color-114px.png" alt="linkedin_img" class="dropdownImg"><span class="dropdownTxt teal-text">LinkedIn</span></a></li>
         <li class="divider"></li>
         <li><a href="https://stackoverflow.com/users/7875249/stephen-hulme" target="_blank"><img src="images/stackoverflow-114px.png" alt="stack_overflow_image" class="dropdownImg"><span class="dropdownTxt teal-text">StackOverflow</span></a></li>
-      </ul>
+      </ul> <!-- End Dropdown Structure for the horizontal navbar menu -- see below for the Dropdown Trigger -->
+
       <!-- Dropdown Structure for sidenav menu on small screens -->
       <ul id="connectDropdown2" class="dropdown-content">
         <li><a href="https://github.com/shulme801" target="_blank"><img src="images/github_square-114px.png" alt="github_img" class="dropdownImg"><span class="dropdownTxt teal-text">GitHub</span></a></li>
@@ -41,7 +41,8 @@
         <li><a href="http://linkedin.com/in/shulme801" target="_blank"><img src="images/linkedin_square_color-114px.png" alt="linkedin_img" class="dropdownImg"><span class="dropdownTxt teal-text">LinkedIn</span></a></li>
         <li class="divider"></li>
         <li><a href="https://stackoverflow.com/users/7875249/stephen-hulme" target="_blank"><img src="images/stackoverflow-114px.png" alt="stack_overflow_image" class="dropdownImg"><span class="dropdownTxt teal-text">StackOverflow</span></a></li>
-      </ul>
+      </ul> <!-- End Dropdown Structure for sidenave menu on small screens -- see below for the Dropdown Trigger-->
+
       <nav class="grey lighten-3">
         <div class="nav-wrapper grey lighten-3">
           <span class="brand-logo teal-text">Steve Hulme</span>
@@ -50,7 +51,7 @@
             <li><a href="#"><span class="teal-text">About</span></a></li>
             <li><a href="portfolio.html"><span class="teal-text">Portfolio</span></a></li>
             <li><a href="contact.html"><span class="teal-text">Contact</span></a></li>
-            <!-- Dropdown Trigger -->
+            <!-- The Dropdown Trigger follows -->
             <li><a class="dropdown-trigger teal-text" href="#!" data-target="connectDropdown1">Connect<i class="material-icons right">arrow_drop_down
                   </i>
                  </a>
@@ -66,15 +67,34 @@
                  </a>
             </li>
           </ul>
-          
         </div>
       </nav>
     </div>
   </header>
 
-  <div class="container">
-    <h1>Text</h1>
-  </div>
+  <div class="container" id="mainContent">
+    <div class="row">
+      <div class="col s12 m7">
+        <div class="portfolio-card-panel white teal-text darken-3 z-depth-1">
+          
+              <!-- <div class="row valign-wrapper"> -->
+              <div class="row">
+                <div class="col s4">
+                  <img src="images/Hulme.jpg" class="responsive-img circle" alt="Steve Hulme Photo" height="150px" width="150px" />
+                </div> <!-- end first col (containing the image of Steve Hulme) in the Bio card -->
+                <div class="col s8">
+                  <span class="portfolio-card-title">Steve's Bio</span>
+                  <li class="divider"></li>
+                  <span class="portfolio-card-text"> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo minus nesciunt quibusdam atque consequuntur officiis, quo, ab maxime eaque culpa reprehenderit commodi assumenda dolore delectus recusandae. Reiciendis facilis, distinctio sit.</p>
+                  </span>
+                </div>
+      
+              </div> <!-- End of Row #1 in the content div -->
+        </div>  <!-- End the Bio Card -->
+      </div> <!-- End the div that contains the Bio Card -->
+    </div> <!-- End main row in the mainContent container -->
+  </div> <!-- End of the mainContent container --> 
                
 
   <!-- This is the responsive footer -->
