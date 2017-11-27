@@ -1,5 +1,18 @@
 @charset "UTF-8";
-@import "../materialize-sass/materialize.scss";
 
+// Mixins
+@import "../materialize-sass/components/mixins";
+@import "../materialize-sass/components/color";
+
+// Variables;
+@import "../materialize-sass/components/variables";
+
+// Reset
+@import "../materialize-sass/components/normalize";
+
+// components
+@import "../materialize-sass/components/global";
+
+// extensions
 @import "components/shh-dropdown";
 @import "components/shh-footer";
