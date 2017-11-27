@@ -4,41 +4,70 @@
 <head>
 
   <meta charset="UTF-8">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Steve Hulme Bootstrap Portfolio</title>
-  <link rel="stylesheet" href="assets/css/reset.css">
+  <title>Steve Hulme's Portfolio</title>
+  
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <!--Import local compilation of materialize.css (v 1.1.0-alpha.1)-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+  <!--Import SHH Portfolio css-->
+  <link type="text/css" rel="stylesheet" href="css/shh-materialize.css"  media="screen,projection"/>
 
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
 </head>
 
 <body>
-  <div id="my-body-styling">
-        <nav class="navbar navbar-default" id="Header">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-xs-6">
-                <div class="navbar-header">
-                  <a class="navbar-brand" id="logo" href="#"><h2>Steve Hulme</h2></a>
-                </div>
-              </div>
-              <div class="col-md-4 col-xs-6">
-               
-                  <ul class="nav navbar-nav navbar-right" id="my-nav">
-                    <li><a href="index.html">About</a></li>
-                    <li id="my-bars"><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                  </ul>
-
-              </div>
-          </div>
-         
+  <header>
+    <div class="container">
+      <!-- Dropdown Structure for horizontal navbar menu-->
+      <ul id="connectDropdown1" class="dropdown-content">
+        <li><a href="https://github.com/shulme801" target="_blank"><img src="images/github_square-114px.png" alt="github_img" class="dropdownImg"><span class="dropdownTxt teal-text">GitHub</span></a></li>
+        <li class="divider"></li>
+        <li><a href="http://linkedin.com/in/shulme801" target="_blank"><img src="images/linkedin_square_color-114px.png" alt="linkedin_img" class="dropdownImg"><span class="dropdownTxt teal-text">LinkedIn</span></a></li>
+        <li class="divider"></li>
+        <li><a href="https://stackoverflow.com/users/7875249/stephen-hulme" target="_blank"><img src="images/stackoverflow-114px.png" alt="stack_overflow_image" class="dropdownImg"><span class="dropdownTxt teal-text">StackOverflow</span></a></li>
+      </ul>
+      <!-- Dropdown Structure for sidenav menu on small screens -->
+      <ul id="connectDropdown2" class="dropdown-content">
+        <li><a href="https://github.com/shulme801" target="_blank"><img src="images/github_square-114px.png" alt="github_img" class="dropdownImg"><span class="dropdownTxt teal-text">GitHub</span></a></li>
+        <li class="divider"></li>
+        <li><a href="http://linkedin.com/in/shulme801" target="_blank"><img src="images/linkedin_square_color-114px.png" alt="linkedin_img" class="dropdownImg"><span class="dropdownTxt teal-text">LinkedIn</span></a></li>
+        <li class="divider"></li>
+        <li><a href="https://stackoverflow.com/users/7875249/stephen-hulme" target="_blank"><img src="images/stackoverflow-114px.png" alt="stack_overflow_image" class="dropdownImg"><span class="dropdownTxt teal-text">StackOverflow</span></a></li>
+      </ul>
+      <nav class="grey lighten-3">
+        <div class="nav-wrapper grey lighten-3">
+          <span class="brand-logo teal-text">Steve Hulme</span>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger button-collapse"><i class="material-icons medium teal lighten-1 left">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html"><span class="teal-text">About</span></a></li>
+            <li><a href="portfolio.html"><span class="teal-text">Portfolio</span></a></li>
+            <li><a href="#"><span class="teal-text">Contact</span></a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger teal-text" href="#!" data-target="connectDropdown1">Connect<i class="material-icons right">arrow_drop_down
+                  </i>
+                 </a>
+            </li>
+          </ul>
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="#"><span class="teal-text">About</span></a></li>
+            <li><a href="portfolio.html"><span class="teal-text">Portfolio</span></a></li>
+            <li><a href="contact.html"><span class="teal-text">Contact</span></a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger teal-text" href="#!" data-target="connectDropdown2">Connect<i class="material-icons right">arrow_drop_down
+                  </i>
+                 </a>
+            </li>
+          </ul>
+          
         </div>
       </nav>
+    </div>
+  </header>
+        
 
       <div class="container">
         <div class="row">
@@ -89,17 +118,28 @@
         </div>
 
       </div>
-      <row>
-        <footer>
-            &copy; Copyright 2017 Stephen H. Hulme
-        </footer>
-      </row>
+
+      
+       <!-- This is the responsive footer -->
+      <footer class="container shh-footer z-depth-1">
+        <div class="nav-wrapper">
+          <div class="shh-footer-copyright">
+         
+            <span> © 2017  Steve Hulme/<img src="images/Pilgrim_Logo_grey_background_tiny.png" class="shh-footer-image">Pilgrim Marine Consultants</span>
+            
+            
+          </div>
+        </div>
+      </footer>
       <!-- jQuery CDN -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-      <!-- Bootstrap JavaScript CDN -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </div>
+      <!-- Minified Materialize Javascript -->
+      <script type="text/JavaScript" src="js/materialize.min.js"></script>
+
+      <!-- Portfolio-specific Javascript -->
+      <script type="text/JavaScript" src="js/portfolio.js"></script>
+  
 </body>
 
 </html>
