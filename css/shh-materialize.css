@@ -2560,7 +2560,8 @@ td, th {
   margin: 0.5rem 0 1rem 0;
   margin-left: 10px;
   border-radius: 2px;
-  background-color: #fff; }
+  background-color: #fff;
+  height: 400px; }
 
 .portfolio-card-title {
   font-size: 1.5rem; }
@@ -2571,5 +2572,9 @@ td, th {
 
 .portfolio-card-image {
   margin: 0 5px 0 0; }
+
+.portfolio-reveal-card-image {
+  max-height: 80%;
+  overflow: hidden; }
 
 /*# sourceMappingURL=shh-materialize.css.map */

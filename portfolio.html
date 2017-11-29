@@ -71,42 +71,181 @@
 
   <div class="container"> <!-- Here's the start of the main content container -->
     <div class="row"> <!-- Row 1 -->
-    	<div class="col s12 m6"> <!-- Col 1 -->
-			<div class="card small">
+    	<div class="col s12 m6"> <!-- Col 1 Row 1-->
+			<div class="card medium">
 				<div class="card-image waves-effect waves-block waves-light">
-					<img class="activator" src="images/ImprovedTrivia1-sm.png">
+					<img class="activator img-responsive" src="images/NewTrivia.png">
 				</div>
 				<div class="card-content">
 					<span class="card-title activator teal-text text-darken-4">Improved Trivia Game<i class="material-icons right">more_vert</i></span>
-					<p class="left"><a href="#">This is a link</a></p>
-					<p class="right"><a href="#">Another link</a></p>
+					<p class="left"><a href="https://triviabouncyhousemaster.github.io/trivia-bouncy-house-game/index.html" target="_blank">Play The Game</a></p>
+					<p class="right"><a href="https://github.com/TriviaBouncyHouseMaster/trivia-bouncy-house-game" target="_blank">View The Code</a></p>
 				</div>
 				<div class="card-reveal">
-      				<span class="card-title teal-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      					<p>Here is some more information about this product that is only revealed once clicked on.</p>
+      				<span class="card-title teal-text text-darken-4">Multi-user Trivia Game<i class="material-icons right">close</i></span>
+      					<p>
+							This project extends the Trivia Game, by Steve Hulme, to a competitive multiplayer game that offers a choice of categories and difficulty levels. Player names and scores will be held in persistent storage and displayed as a leader board which will display user names and high scores.
+						</p>
+						<p>
+							Scoring is based on the number of right answers selected per round. Later development will extend the score calculation to include factors like the difficulty of questions and time taken to answer questions.
+						<p>
+							When the number of questions reaches the game limit (currently set to 10), the user will be prompted to enter in his/her initials at that point the users current game score will be posted to the leaderboards and displayed alongside the entered initial.
+						</p>
+							Users will play against the machine. However, the leader board will provide the competitive element, as users try to rack up the highest score.
+						<p>
+							<b>APIs Used</b>
+						</p>
+						<ul>
+							<li>-- OpenTDB -- open trivia database. Over 3,000 verified trivia questions and answers in ~20 categories.</li>
+
+							<li>-- pixabay.com/api. A RESTful API interface for searching and retrieving free images and videos released on Pixabay under Creative Commons CC0</li>
+							<li>-- Database Storage Persistent Storage -- Firebase</li>
+						</ul>
+						<p>
+							<b>Authors</b>
+						</p>
+						<ul>
+							<li>-- Steve Hulme, lead</li>
+							<li>-- Emmanuel Mosqueda, UI redesign</li>
+							<li>-- Jamal Patterson, Pixabay interface</li>
+							<li>-- John Carroll, Firebase and Leaderboard</li>
+						</ul>
+						
     			</div>
 			</div>
-		</div> <!-End col 1 --->
-		<div class="col s12 m6"> <!--Col 2 -->
-			<div class="card small">
+		</div> <!-End Col 1 Row 1--->
+		<div class="col s12 m6"> <!--Col 2 Row 1 -->
+      <div class="card medium">
 				<div class="card-image waves-effect waves-block waves-light">
 					<img class="activator img-responsive" src="images/SHHTrivia_sm.png">
 				</div>
 				<div class="card-content">
 					<span class="card-title activator teal-text text-darken-4">Historical Trivia Game<i class="material-icons right">more_vert</i></span>
-					<p class="left"><a href="#">This is a link</a></p>
-					<p class="right"><a href="#">Another link</a></p>
+					<p class="left"><a href="https://shulme801.github.io/TriviaGameSHH/" target="_blank">Play The Game</a></p>
+					<p class="right"><a href="https://github.com/shulme801/TriviaGameSHH" target="_blank">View The Code</a></p>
 				</div>
 				<div class="card-reveal">
-      				<span class="card-title teal-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      					<p>Here is some more information about this product that is only revealed once clicked on.</p>
-    			</div>
-			</div>
-    	</div> <!--End Col 2 -->
+      				<span class="card-title teal-text text-darken-4">Historical Trivia Game<i class="material-icons right">close</i></span>
+      					<p>This is a multi-question Historical trivia game. The source of the questions is the Open Trivia Database (opentdb.com), which contains thousands of questions of various difficulties across more than 20 categories.</p>
+      					<p>The code uses AJAX to access opentdb through its API. It also makes use of JQuery to implement various features, including its timer.</p>
+      					<p>Steve Hulme is the author of this game.</p>
+    		</div>
+			 </div>
+     </div> <!--End Col 2 -->
     </div> <!-- End Row 1 -->
     <div class="row"> <!-- Row 2 -->
+      <div class="col s12 m6"> <!-- Col 1 Row 2-->
+      <div class="card medium">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator img-responsive" src="images/GifTastic.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator teal-text text-darken-4">GifTastic<i class="material-icons right">more_vert</i></span>
+          <p class="left"><a href="https://shulme801.github.io/GifTastic/" target="_blank">Play The Game</a></p>
+          <p class="right"><a href="https://github.com/shulme801/GifTastic" target="_blank">View The Code</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title teal-text text-darken-4">GIF Retrieval, Display, Animate<i class="material-icons right">close</i></span>
+                <p>This is an application that pulls random gif images related to a set of animals from the GIPHY API.
+                </p>
+                <p> On initial page load, the app will dynamically build and append a button for each of the default animals. When clicked, up to 5 images of the specified animal are displayed dynamically.
+                </p>
+                <p>
+                  The images are initially still. When an image is clicked, the gif will animate.
+                </p>
+                <p>
+                  The user can add animal buttons to the array by entering the information in the form. The application will inform the user should no images be available for her/his chosen animal.
+                </p>
+                <p>
+                  Technologies featured are AJAX and JSON.
+                </p>
+                <p>Steve Hulme is the author of this game.</p>
+              
+        </div>
+      </div>
+    </div> <!-End Col 1 Row 2--->
+    <div class="col s12 m6"> <!-- Col 2 Row 2-->
+      <div class="card medium">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator img-responsive" src="images/TrainTime.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator teal-text text-darken-4">Train Time!<i class="material-icons right">more_vert</i></span>
+          <p class="left"><a href="https://shulme801.github.io/TrainTime/" target="_blank">Play The Game</a></p>
+          <p class="right"><a href="https://github.com/shulme801/TrainTime" target="_blank">View The Code</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title teal-text text-darken-4">Multi-User Train Timetable App<i class="material-icons right">close</i></span>
+                <p>
+                This is a train timetable app. When adding trains via the application, administrators will submit the following:
+                  <ul>
+                    <li>-- Train Name</li>
+                    <li>-- Destination</li>
+                    <li>-- First Train Time -- in military time</li>
+                    <li>-- Frequency -- in minutes</li>
+                  </ul>
+                </p>
+                <p>
+                The app will calculate, store and display this information. The app calculates when the next train will arrive; relative to the current time. Users from many different machines can view same train times.
+              </p>
+              <p>
+                The User Interface is coded with the Materialize framework; moment.js is used for time calculations.
+              </p>
+              <p>Steve Hulme is the author of this application.</p>
+              
+        </div>
+       </div>
+     </div> <!--End Col 2 Row 2-->
     </div> <!-- End Row 2 -->
+
     <div class="row"> <!-- Row 3 -->
+      <div class="col s12 m6"> <!-- Col 1 Row 3-->
+      <div class="card medium">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator img-responsive" src="images/CrystalCollector.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator teal-text text-darken-4">Crystal Collector Game<i class="material-icons right">more_vert</i></span>
+          <p class="left"><a href="https://shulme801.github.io/crystal-collector-game/" target="_blank">Play The Game</a></p>
+          <p class="right"><a href="https://github.com/shulme801/crystal-collector-game" target="_blank">View The Code</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title teal-text text-darken-4">Crystal Collector Game<i class="material-icons right">close</i></span>
+                <p>
+                  <u>The Basics</u>
+                </p>
+                <p>
+                  There will be four crystals displayed as buttons on the page. The player will be shown a random number at the start of the game.
+                </p>
+                <p>
+                  When the player clicks on a crystal, it will add a specific amount of points to the player's total score.
+                  The game will hide this amount until the player clicks a crystal.
+                  Each time a player clicks one of the crystals the game will update the player's score.
+                </p>
+                <p>
+                <p><u>Winning/Losing</u>
+                  <ul>
+                    <li>-- The player wins if the player's total score matches the random number from the beginning of the game.</li>
+                    <li>-- The player loses if the score goes exceeds the random number.</li>
+                    <li>-- The game restarts whenever the player wins or loses.</li>
+                  </ul>
+                <p><u>Restart Processing</u>
+                </p>
+                <p>When the game restarts:</p>
+                <ul>
+                  <li>-- The player will see a new random number.</li>
+                  <li>-- The crystals will have four new hidden values.</li>
+                  <li>-- The user's score (and score counter) will reset to zero.</li>
+                  <li>-- The app will show the number of games the player wins and loses.</li>
+                </ul>
+                <p>Steve Hulme is the author of this game.</p>
+        </div>
+      </div>
+    </div> <!-End Col 1 Row 3--->
+    <div class="col s12 m6"> <!-- Col 2 Row 3-->
+      
+    </div> <!--End Col 2 Row 3 -->
+
     </div> <!-- End Row 3 -->
     
     
