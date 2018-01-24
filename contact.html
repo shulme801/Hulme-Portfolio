@@ -71,12 +71,13 @@
 
       <div class="container">
         <div class="row">
-         <div class="col-md-8 col-xs-12" id="main-content-container">
+         <div class="col s12 m8" id="main-content-container">
             <div class="page-header" id="about-me">
               <h2>Contact</h2>
             </div>
             <row>
-              <div class=class="col-md-8 col-xs-12">
+              <div class=class="col s12 m8 card-medium">
+                <div class="card-content">
                     <form id="my-contact-form">
                       <ul>
                         <li><label for="fullname">Name</label>
@@ -91,29 +92,19 @@
                             <textarea id="message" class="def-text" name="message" required="required" placeholder="Your message here"></textarea>
                         </li>
                       </ul>
-                        <input type="Submit" name="Submit" value="Submit">
+                        <button id="submit" class="btn waves-effect waves-light" type="submit" 
+                           name="action" value="submit">Submit
+                          <i class="material-icons right">send</i>
+                        </button>
+     
                     </form>
+                </div> 
               </div>
             </row>
          </div>
-         <div class="col-md-1"></div>
-         <div class="col-md-3 col-xs-12 sidebar img-responsive">
-          <div>
-              <h2>Connect with Me</h2>
-  
-              <a href="https://github.com/shulme801" target="_blank">
-                <img src="./assets/images/github_square-114px.png" alt="github_img" class="social-image">
-              </a>
-
-              <a href="http://linkedin.com/in/shulme801" target="_blank">
-                <img src="./assets/images/linkedin_square_color-114px.png" alt="linkedin_img" class="social-image">
-              </a>
-
-              <a href="https://stackoverflow.com/users/7875249/stephen-hulme" target="_blank">
-                <img src="./assets/images/stackoverflow-114px.png" alt="stack_overflow_image" class="social-image">
-              </a>
-        
-            </div>
+         <div class="col m1"></div>
+         <div class="col m3 show12 sidebar img-responsive">
+          
          </div>
         </div>
 
@@ -125,7 +116,7 @@
         <div class="nav-wrapper">
           <div class="shh-footer-copyright">
          
-            <span> © 2017  Steve Hulme/<img src="images/Pilgrim_Logo_grey_background_tiny.png" class="shh-footer-image">Pilgrim Marine Consultants</span>
+            <span> © 2018  Steve Hulme/<img src="images/Pilgrim_Logo_grey_background_tiny.png" class="shh-footer-image">Pilgrim Marine Consultants</span>
             
             
           </div>
