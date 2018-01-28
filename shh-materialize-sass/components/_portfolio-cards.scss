@@ -8,7 +8,7 @@
   border-radius: 2px;
   @extend .z-depth-1;
   background-color: $card-bg-color;
-  height: 600px;
+  min-height: 750px;
   @media #{$extra-large-and-up} {
     .portfolio-card-panel {
       height: 450px; } }
