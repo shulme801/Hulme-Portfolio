@@ -8,9 +8,10 @@
   border-radius: 2px;
   @extend .z-depth-1;
   background-color: $card-bg-color;
-  height: 450px;
-  @media #{$small-and-down} {height: 600px}
-  @media #{$medium-and-up} {height: 450px}
+  height: 600px;
+  @media #{$extra-large-and-up} {
+    .portfolio-card-panel {
+      height: 450px; } }
 }
 
 .portfolio-card-title {
