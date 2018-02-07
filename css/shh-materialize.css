@@ -2588,7 +2588,8 @@ td, th {
 
 .contact-text {
   font-size: 1.0rem;
-  color: teal-text; }
+  color: teal-text; 
+  margin-bottom: 5px;}
 
 .message-text {
   margin-bottom: 5px; }
