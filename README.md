@@ -37,6 +37,6 @@ In addition, the portfolio was tested with Samsung Galaxy S5 and a Nexus 6P by m
 
 If users experience poor display on another device, please let me know the dimensions and resolution of the screen so that I can correct the media queries.
 
-### Expansion and Development
+### Expansion and Development (My To-Do List)
 * Add a carousel to display the projects on the Portfolio page.
 * Revisit the design of the Contact page to improve its look and feel.
