@@ -12,7 +12,7 @@ This portfolio summarizes my
 		* A link to the deployed project.
 * Contact information
 	* Name, email, phone number.
-	* Link to my resume.
+	* Link to my resume in PDF format.
 
 ## Technologies used for Portfolio
 ### Materialize
@@ -35,7 +35,7 @@ Testing was done in both portrait and landscape modes on the handheld devices.
 
 In addition, the portfolio was tested with Samsung Galaxy S5 and a Nexus 6P by means of a simulator.
 
-If users experience poor display on another device, please let me know the dimensions and resolution of the screen so that I can correct the media queries.
+If users experience display issues on another device, please let me know the dimensions and resolution of the screen so that I can correct the media queries.
 
 ### Expansion and Development (My To-Do List)
 * Add a carousel to display the projects on the Portfolio page.
