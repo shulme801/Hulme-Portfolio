@@ -3,6 +3,7 @@
 ## [Hulme-Portfolio Deployed](https://shulme801.github.io/Hulme-Portfolio)
 
 ## Steve Hulme’s Portfolio — Overview
+
 This portfolio summarizes my
 * Experience, goals, aspirations — what I’ve done in a career in information technology and why my passion is full-stack web software development.
 * Recent software development projects. They are organized in “reverse chronological” order, from the most recent to the oldest.
