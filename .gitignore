@@ -1,2 +1,4 @@
 *foo*
 sass-cache/*
+.DS*
+.vscode
